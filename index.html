@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="http://underscorejs.org/underscore.js"></script>
+  </head>
+
+  <body>
+    <div class="wraper">
+      <h1>Totalizator sportowy LOTTO.</h1>
+      <h2>
+        Ilość liczb do wylosowania: <input type="number" class="drawNumber" />
+      </h2>
+      <h2>
+        Minimalna liczbę losowa: <input type="number" class="minNumber" />
+      </h2>
+      <h2>
+        Maksymalna liczbę losowa: <input type="number" class="maxNumber" />
+      </h2>
+
+      <button class="draw">Losuj LOTTO</button>
+      <p class="generated"></p>
+      <div class="history">
+        <button class="results">Pokaż wyniki.</button>
+        <div class="display"></div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

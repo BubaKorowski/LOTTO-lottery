@@ -1,0 +1,44 @@
+/* ostylować aplikację */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: #d0f1ff;
+}
+.wraper {
+  max-width: 80vw;
+  height: 120vh;
+  margin: 0 auto;
+  background-color: #efff27;
+}
+h1 {
+  text-align: center;
+  padding: 50px 30px;
+  color: #1876cc;
+}
+
+div.hisory {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button.results {
+  font-size: 15px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+}
+
+.display {
+  margin: 0 auto;
+  padding: 20px;
+  width: 600px;
+  height: 200px;
+  /* background-color: #5091ff; */
+  overflow-y: auto;
+}
